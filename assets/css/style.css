@@ -28,7 +28,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    overflow: hidden;
+    /* overflow: hidden; */
     text-align: right;
 }
 
@@ -71,7 +71,9 @@ h1, h2 {
 #hero-image {
     height: 600px;
     width: 100%;
-    background-image: url(#) no-repeat center center;
+    background: url(../images/breathelarge.jpg) no-repeat center center;
+    /*Photo by <a href="https://unsplash.com/@simonmigaj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Migaj</a> on <a href="https://unsplash.com/s/photos/relaxed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
 }
 
 #cover-text {
@@ -86,7 +88,7 @@ h1, h2 {
     padding-top: 40px;
     padding-left: 10px;
 
-    background-color: rgba(241, 109, 107, 0.7);
+    background-color: rgba(170, 204, 160, 0.7);
 
     bottom: 30px;
     right: 150px;
