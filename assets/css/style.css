@@ -23,6 +23,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
+    color: rgba(170, 204, 160, 1);
+    margin-left: 20px;
 }
 
 #menu {
@@ -83,7 +85,7 @@ h1, h2 {
     letter-spacing: 4px;
 
     width: 300px;
-    height: 200px;
+    height: 100px;
 
     padding-top: 40px;
     padding-left: 10px;
