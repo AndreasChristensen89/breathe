@@ -120,10 +120,23 @@ h1, h2 {
 
 #ethos-left {
     padding: 30px;
+    width: 40%;
+    float: left;
+    background-color: red;
+}
+
+#ethos-left-content {
+    width: 60%;
+    float: right;
+    line-height: 40px;
 }
 
 #ethos-right {
     padding: 30px;
+    width: 40%;
+    float: right;
+    background-color: green;
+    background: url(../images/breathemedium.jpg);
 }
 
 /* footer */
