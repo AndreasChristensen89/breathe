@@ -30,7 +30,7 @@ h1, h2 {
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
-    /* overflow: hidden; */
+    overflow: hidden;
     text-align: right;
 }
 
@@ -119,25 +119,49 @@ h1, h2 {
 }
 
 #ethos-left {
-    padding: 30px;
-    width: 40%;
+    padding-top: 30px;
+    width: 33%;
     float: left;
-    background-color: red;
-}
-
-#ethos-left-content {
-    width: 60%;
-    float: right;
-    line-height: 40px;
 }
 
 #ethos-right {
-    padding: 30px;
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#ethos-center {
+    width: 33%;
+    margin: 0 auto;
+    background-color: yellow;
+}
+
+#ethos-left-content {
     width: 40%;
     float: right;
-    background-color: green;
-    background: url(../images/breathemedium.jpg);
+    text-align: right;
+    padding-right: 20px;
+    line-height: 50px;
+    list-style-type: none;
+    margin-bottom: 50px;
 }
+
+#ethos-right-content {
+    width: 65%;
+    float: left;
+    text-align: left;
+    padding-right: 20px;
+    line-height: 50px;
+    list-style-type: none;
+    margin-bottom: 50px;
+}
+
+#ethos h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+
+
 
 /* footer */
 
