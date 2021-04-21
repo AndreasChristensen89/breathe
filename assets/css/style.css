@@ -133,7 +133,6 @@ h1, h2 {
 #ethos-center {
     width: 33%;
     margin: 0 auto;
-    background-color: yellow;
 }
 
 #ethos-left-content {
@@ -156,12 +155,33 @@ h1, h2 {
     margin-bottom: 50px;
 }
 
-#ethos h1 {
+#ethos h2 {
     padding-top: 30px;
     text-align: center;
+    font-size: 200%;
+}
+
+#ethos-picture {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: url(../images/healthdim.jpg) no-repeat center center;
 }
 
 
+/* anywhere section */
+
+#anywhere {
+    height: 600px;
+}
+
+#anywhere-picture {
+    background: url(../images/anywhere.jpg) no-repeat center center;
+    height: 600px;
+    width: 100%;
+}
 
 /* footer */
 
