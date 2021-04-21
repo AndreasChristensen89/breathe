@@ -13,6 +13,10 @@ body {
 
 /* headings and logo */
 
+header {
+    color: rgb(4, 110, 136);
+}
+
 h1, h2 {
     font-family: Roboto, sans-serif;
     text-transform: uppercase;
@@ -23,8 +27,8 @@ h1, h2 {
 #logo {
     float: left;
     font-size: 280%;
-    color: rgba(170, 204, 160, 1);
     margin-left: 20px;
+    color: rgb(4, 110, 136);
 }
 
 #menu {
@@ -61,7 +65,7 @@ h1, h2 {
 /* hero image */
 
 #hero-outer {
-    height: 600px;
+    height: 300px;
     width: 100%;
     position: relative;
 }
@@ -71,11 +75,12 @@ h1, h2 {
 }
 
 #hero-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
-    background: url(../images/breathelarge.jpg) no-repeat center center;
-    /*Photo by <a href="https://unsplash.com/@simonmigaj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Migaj</a> on <a href="https://unsplash.com/s/photos/relaxed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  */
+    background: url(../images/river_snow-min.jpg) no-repeat center center;
+    object-fit: cover;
+    /* Photo by <a href="https://unsplash.com/@simonmigaj?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Simon Migaj</a> on <a href="https://unsplash.com/s/photos/relaxed?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> */
+ 
 }
 
 #cover-text {
@@ -92,7 +97,7 @@ h1, h2 {
 
     /* background-color: rgba(170, 204, 160, 0.7); */
 
-    bottom: 30px;
+    bottom: 120px;
     right: 150px;
 
     position: absolute;
@@ -140,19 +145,21 @@ h1, h2 {
     float: right;
     text-align: right;
     padding-right: 20px;
-    line-height: 50px;
+    line-height: 70px;
     list-style-type: none;
-    margin-bottom: 50px;
+    margin: 50px;
+    font-size: 110%;
 }
 
 #ethos-right-content {
-    width: 65%;
+    width: 70%;
     float: left;
     text-align: left;
     padding-right: 20px;
-    line-height: 50px;
+    line-height: 70px;
     list-style-type: none;
-    margin-bottom: 50px;
+    margin: 50px;
+    font-size: 110%;
 }
 
 #ethos h2 {
@@ -161,13 +168,21 @@ h1, h2 {
     font-size: 200%;
 }
 
-#ethos-picture {
-    width: 300px;
-    height: 300px;
+/* #ethos-picture {
+    width: 100%;
+    height: 100%;
     padding: 30px;
     margin: 0 auto;
     margin-top: 30px;
+    overflow: hidden;
     background: url(../images/healthdim.jpg) no-repeat center center;
+} */
+
+#ethos img, #anywhere img {
+   object-fit: cover;
+   width: 100%;
+   height: 300px;
+   padding-top: 40px;
 }
 
 
@@ -177,11 +192,29 @@ h1, h2 {
     height: 600px;
 }
 
+#anywhere-left {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+
 #anywhere-picture {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+}
+
+#anywhere-left p {
+    font-size: 200%;
+    padding: 50px;
+}
+
+/* #anywhere-picture {
     background: url(../images/anywhere.jpg) no-repeat center center;
     height: 600px;
     width: 100%;
-}
+} */
 
 /* footer */
 
